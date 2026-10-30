@@ -138,7 +138,7 @@
                         <!-- Stats / Highlights -->
                         <div class="pt-8 grid grid-cols-3 gap-4 border-t border-slate-200/80 text-center lg:text-left">
                             <div>
-                                <span class="block text-2xl sm:text-3xl font-extrabold text-blue-700">4+</span>
+                                <span class="block text-2xl sm:text-3xl font-extrabold text-blue-700">5+</span>
                                 <span class="text-xs sm:text-sm text-slate-500 font-medium">Modul Utama</span>
                             </div>
                             <div>
@@ -146,8 +146,8 @@
                                 <span class="text-xs sm:text-sm text-slate-500 font-medium">GTK SMA Negeri 1 Waigete</span>
                             </div>
                             <div>
-                                <span class="block text-2xl sm:text-3xl font-extrabold text-indigo-600">2</span>
-                                <span class="text-xs sm:text-sm text-slate-500 font-medium">Ruang Akses (GTK & Murid)</span>
+                                <span class="block text-2xl sm:text-3xl font-extrabold text-indigo-600">3</span>
+                                <span class="text-xs sm:text-sm text-slate-500 font-medium">Akses Portal Resmi</span>
                             </div>
                         </div>
                     </div>
@@ -155,7 +155,6 @@
                     <!-- Right Card Graphic/Illustration -->
                     <div class="lg:col-span-5 relative">
                         <div class="relative mx-auto max-w-md lg:max-w-none">
-                            <!-- Card Container -->
                             <div class="p-6 sm:p-8 rounded-3xl bg-white shadow-2xl border border-slate-100 relative z-10 space-y-6">
                                 <div class="flex items-center justify-between pb-4 border-b border-slate-100">
                                     <div class="flex items-center space-x-3">
@@ -171,9 +170,22 @@
                                 </div>
 
                                 <div class="space-y-3">
+                                    <!-- 1. Rumah Pendidikan -->
                                     <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 flex items-center space-x-3">
-                                        <div class="w-8 h-8 rounded-lg bg-blue-500 text-white flex items-center justify-center text-xs">
-                                            <i class="fa-solid fa-chalkboard-user"></i>
+                                        <div class="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center text-xs font-bold shrink-0">
+                                            1
+                                        </div>
+                                        <div class="flex-1">
+                                            <p class="text-xs font-semibold text-slate-800">Rumah Pendidikan</p>
+                                            <p class="text-[11px] text-slate-500">Portal Utama Pembelajaran Terpadu</p>
+                                        </div>
+                                        <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
+                                    </div>
+
+                                    <!-- 2. Ruang GTK -->
+                                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 flex items-center space-x-3">
+                                        <div class="w-8 h-8 rounded-lg bg-indigo-600 text-white flex items-center justify-center text-xs font-bold shrink-0">
+                                            2
                                         </div>
                                         <div class="flex-1">
                                             <p class="text-xs font-semibold text-slate-800">Ruang GTK</p>
@@ -182,9 +194,10 @@
                                         <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
                                     </div>
 
+                                    <!-- 3. Ruang Murid -->
                                     <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 flex items-center space-x-3">
-                                        <div class="w-8 h-8 rounded-lg bg-emerald-500 text-white flex items-center justify-center text-xs">
-                                            <i class="fa-solid fa-user-graduate"></i>
+                                        <div class="w-8 h-8 rounded-lg bg-emerald-600 text-white flex items-center justify-center text-xs font-bold shrink-0">
+                                            3
                                         </div>
                                         <div class="flex-1">
                                             <p class="text-xs font-semibold text-slate-800">Ruang Murid</p>
@@ -193,13 +206,14 @@
                                         <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
                                     </div>
 
+                                    <!-- 4. Papan Interaktif Digital -->
                                     <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 flex items-center space-x-3">
-                                        <div class="w-8 h-8 rounded-lg bg-amber-500 text-white flex items-center justify-center text-xs">
-                                            <i class="fa-solid fa-book-open"></i>
+                                        <div class="w-8 h-8 rounded-lg bg-purple-600 text-white flex items-center justify-center text-xs font-bold shrink-0">
+                                            4
                                         </div>
                                         <div class="flex-1">
-                                            <p class="text-xs font-semibold text-slate-800">Bahan Presentasi</p>
-                                            <p class="text-[11px] text-slate-500">Panduan Praktis Pengimbasan</p>
+                                            <p class="text-xs font-semibold text-slate-800">Papan Interaktif Digital</p>
+                                            <p class="text-[11px] text-slate-500">Media Pembelajaran Interaktif Kelas</p>
                                         </div>
                                         <i class="fa-solid fa-chevron-right text-xs text-slate-400"></i>
                                     </div>
@@ -235,8 +249,9 @@
                     <div class="rounded-2xl bg-slate-50 p-6 sm:p-8 border border-slate-200/80 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
                         <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-bl-full transition-all group-hover:scale-110"></div>
                         <div class="flex flex-col sm:flex-row items-center sm:items-start gap-5 relative z-10">
-                            <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-blue-600 to-blue-400 text-white flex items-center justify-center text-2xl font-bold shadow-md shrink-0">
-                                AP
+                            <!-- Foto / Avatar Pelaksana 1 -->
+                            <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-blue-600 to-blue-400 text-white flex items-center justify-center text-2xl font-bold shadow-md shrink-0 overflow-hidden border-2 border-blue-500">
+                                <img src="alex.jpg" alt="Alexandros Arief Prasetya, S.Pd." class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='AP';">
                             </div>
                             <div class="text-center sm:text-left space-y-2">
                                 <span class="px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-[11px] font-bold tracking-wider uppercase">Narasumber / Pelaksana</span>
@@ -253,8 +268,9 @@
                     <div class="rounded-2xl bg-slate-50 p-6 sm:p-8 border border-slate-200/80 hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
                         <div class="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-bl-full transition-all group-hover:scale-110"></div>
                         <div class="flex flex-col sm:flex-row items-center sm:items-start gap-5 relative z-10">
-                            <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-400 text-white flex items-center justify-center text-2xl font-bold shadow-md shrink-0">
-                                FR
+                            <!-- Foto / Avatar Pelaksana 2 -->
+                            <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-400 text-white flex items-center justify-center text-2xl font-bold shadow-md shrink-0 overflow-hidden border-2 border-emerald-500">
+                                <img src="frans.jpg" alt="Fransiskus Rudihardus, S.T." class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='FR';">
                             </div>
                             <div class="text-center sm:text-left space-y-2">
                                 <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-[11px] font-bold tracking-wider uppercase">Narasumber / Pelaksana</span>
@@ -306,99 +322,66 @@
                     <div class="space-y-2 mb-6 md:mb-0">
                         <h2 class="text-xs font-bold tracking-widest text-blue-600 uppercase">Pustaka Pembelajaran</h2>
                         <p class="text-3xl font-extrabold text-slate-900 tracking-tight sm:text-4xl">Modul & Materi Pengimbasan</p>
-                        <p class="text-slate-600 text-sm max-w-xl">Akses presentasi, panduan, dan modul pembelajaran digital yang dapat dipelajari secara mandiri.</p>
+                        <p class="text-slate-600 text-sm max-w-xl">Materi presentasi pengimbasan utama yang mencakup pengenalan platform pendidikan dan penggunaan papan interaktif digital.</p>
                     </div>
 
                     <!-- Search Input -->
                     <div class="w-full md:w-72 relative">
                         <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
-                        <input type="text" id="materi-search" placeholder="Cari materi / modul..." class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-300 bg-white text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all">
+                        <input type="text" id="materi-search" placeholder="Cari isi materi..." class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-300 bg-white text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all">
                     </div>
                 </div>
 
-                <!-- Grid Materi -->
-                <div id="materi-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Modul Utama Pengimbasan -->
+                <div id="materi-grid" class="max-w-4xl mx-auto">
                     
-                    <!-- Card 1: Presentasi Pengimbasan -->
-                    <div class="materi-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-title="presentasi pengimbasan bimtek ppt slide">
-                        <div class="space-y-4">
-                            <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-xl font-bold">
-                                <i class="fa-solid fa-file-powerpoint"></i>
+                    <div class="materi-card bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-title="presentasi pengimbasan bimtek pengenalan rumah pendidikan ruang gtk ruang murid penggunaan papan interaktif digital">
+                        <div class="space-y-6">
+                            <div class="flex flex-wrap items-center justify-between gap-3">
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white flex items-center justify-center text-2xl font-bold shadow-md">
+                                        <i class="fa-solid fa-file-powerpoint"></i>
+                                    </div>
+                                    <div>
+                                        <span class="px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-bold uppercase tracking-wider">Materi Utama</span>
+                                        <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900 mt-1">Presentasi Pengimbasan Bimtek</h3>
+                                    </div>
+                                </div>
+                                <span class="text-xs text-slate-500 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200"><i class="fa-solid fa-file-pdf text-blue-600 mr-1"></i> Slide Dokumen Presentation</span>
                             </div>
-                            <span class="px-2.5 py-0.5 rounded-md bg-blue-50 text-blue-700 text-xs font-semibold">Slide Utama</span>
-                            <h3 class="text-lg font-bold text-slate-900">Presentasi Pengimbasan Bimtek</h3>
-                            <p class="text-xs text-slate-600 leading-relaxed">
-                                Rangkuman materi utama pengimbasan Bimtek Pemanfaatan Rumah Pendidikan di SMA Negeri 1 Waigete.
-                            </p>
-                        </div>
-                        <div class="pt-6 mt-4 border-t border-slate-100 flex items-center justify-between">
-                            <span class="text-[11px] text-slate-400"><i class="fa-solid fa-file-pdf mr-1"></i> SLIDE</span>
-                            <button onclick="openModal('Presentasi Pengimbasan Bimtek', 'Dokumen presentasi komprehensif memuat kebijakan, gambaran umum Rumah Pendidikan, integrasi kurikulum, serta strategi tindak lanjut di SMA Negeri 1 Waigete.', 'slide presentation', 'https://docs.google.com/presentation/d/1PLB8eurc6GkCT6H8kvjzCKuK82eDf_Dum3eXf9sK6L8/edit?usp=sharing')" class="text-xs font-bold text-blue-600 hover:text-blue-800 flex items-center space-x-1">
-                                <span>Lihat Detail</span>
-                                <i class="fa-solid fa-chevron-right text-[10px]"></i>
-                            </button>
-                        </div>
-                    </div>
 
-                    <!-- Card 2: Pengenalan Rumah Pendidikan -->
-                    <div class="materi-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-title="pengenalan rumah pendidikan portal kementerian">
-                        <div class="space-y-4">
-                            <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-xl font-bold">
-                                <i class="fa-solid fa-house-laptop"></i>
-                            </div>
-                            <span class="px-2.5 py-0.5 rounded-md bg-indigo-50 text-indigo-700 text-xs font-semibold">Modul Umum</span>
-                            <h3 class="text-lg font-bold text-slate-900">Pengenalan Rumah Pendidikan</h3>
-                            <p class="text-xs text-slate-600 leading-relaxed">
-                                Panduan mendasar tentang fitur, struktur, dan ekosistem terpadu pada platform Rumah Pendidikan.
+                            <p class="text-sm text-slate-600 leading-relaxed">
+                                Dokumen presentasi terpadu Pengimbasan Bimtek Pemanfaatan Rumah Pendidikan SMA Negeri 1 Waigete yang merangkum keseluruhan cakupan sosialisasi dan modul praktik bagi GTK.
                             </p>
-                        </div>
-                        <div class="pt-6 mt-4 border-t border-slate-100 flex items-center justify-between">
-                            <span class="text-[11px] text-slate-400"><i class="fa-solid fa-book-open mr-1"></i> Modul Digital</span>
-                            <button onclick="openModal('Pengenalan Rumah Pendidikan', 'Panduan eksplorasi portal resmi Rumah Pendidikan yang mengintegrasikan berbagai layanan digital pembelajaran, sumber daya guru, dan sarana murid.', 'Buka Portal Terkait', 'https://rumah.kemdikbud.go.id/')" class="text-xs font-bold text-blue-600 hover:text-blue-800 flex items-center space-x-1">
-                                <span>Lihat Detail</span>
-                                <i class="fa-solid fa-chevron-right text-[10px]"></i>
-                            </button>
-                        </div>
-                    </div>
 
-                    <!-- Card 3: Ruang GTK -->
-                    <div class="materi-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-title="ruang gtk pengembangan profesi guru perangkat ajar">
-                        <div class="space-y-4">
-                            <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-xl font-bold">
-                                <i class="fa-solid fa-user-gear"></i>
-                            </div>
-                            <span class="px-2.5 py-0.5 rounded-md bg-emerald-50 text-emerald-700 text-xs font-semibold">Khusus Pendidik</span>
-                            <h3 class="text-lg font-bold text-slate-900">Ruang GTK & Profesi</h3>
-                            <p class="text-xs text-slate-600 leading-relaxed">
-                                Panduan pemanfaatan Ruang GTK untuk akses bahan ajar, asesmen, serta pelatihan mandiri bagi guru.
-                            </p>
-                        </div>
-                        <div class="pt-6 mt-4 border-t border-slate-100 flex items-center justify-between">
-                            <span class="text-[11px] text-slate-400"><i class="fa-solid fa-chalkboard-user mr-1"></i> Panduan GTK</span>
-                            <button onclick="openModal('Ruang GTK (Pengembangan Profesi)', 'Fitur Ruang GTK dirancang untuk mendukung peningkatan kompetensi guru secara berkelanjutan, penyusunan modul ajar, dan pelatihan mandiri.', 'Akses Ruang GTK', 'https://rumah.pendidikan.go.id/ruang/gtk/')" class="text-xs font-bold text-blue-600 hover:text-blue-800 flex items-center space-x-1">
-                                <span>Lihat Detail</span>
-                                <i class="fa-solid fa-chevron-right text-[10px]"></i>
-                            </button>
-                        </div>
-                    </div>
+                            <!-- Sub-materi Poin Pokok Pembahasan -->
+                            <div class="pt-2">
+                                <p class="text-xs font-bold text-slate-800 uppercase tracking-wider mb-3">Cakupan Isi Presentasi:</p>
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div class="p-4 rounded-2xl bg-blue-50/60 border border-blue-100/80 flex items-start space-x-3">
+                                        <div class="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">1</div>
+                                        <div>
+                                            <h4 class="text-xs font-bold text-slate-900">Pengenalan Platform Pendidikan</h4>
+                                            <p class="text-[11px] text-slate-600 mt-0.5 leading-relaxed">Eksplorasi ekosistem Rumah Pendidikan, layanan Ruang GTK, serta fitur Ruang Murid.</p>
+                                        </div>
+                                    </div>
 
-                    <!-- Card 4: Ruang Murid -->
-                    <div class="materi-card bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-title="ruang murid siswa sumber belajar latihan soal interactive">
-                        <div class="space-y-4">
-                            <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-xl font-bold">
-                                <i class="fa-solid fa-icons"></i>
+                                    <div class="p-4 rounded-2xl bg-purple-50/60 border border-purple-100/80 flex items-start space-x-3">
+                                        <div class="w-8 h-8 rounded-lg bg-purple-600 text-white flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">2</div>
+                                        <div>
+                                            <h4 class="text-xs font-bold text-slate-900">Penggunaan Papan Interaktif Digital</h4>
+                                            <p class="text-[11px] text-slate-600 mt-0.5 leading-relaxed">Panduan pengoperasian papan interaktif digital untuk mendukung KBM yang komunikatif dan kolaboratif.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <span class="px-2.5 py-0.5 rounded-md bg-amber-50 text-amber-700 text-xs font-semibold">Akses Peserta Didik</span>
-                            <h3 class="text-lg font-bold text-slate-900">Ruang Murid & Pembelajaran</h3>
-                            <p class="text-xs text-slate-600 leading-relaxed">
-                                Panduan pemanfaatan Ruang Murid sebagai media belajar interaktif dan mandiri bagi siswa SMA Negeri 1 Waigete.
-                            </p>
                         </div>
-                        <div class="pt-6 mt-4 border-t border-slate-100 flex items-center justify-between">
-                            <span class="text-[11px] text-slate-400"><i class="fa-solid fa-laptop text-xs mr-1"></i> Media Siswa</span>
-                            <button onclick="openModal('Ruang Murid & Pembelajaran Digital', 'Ruang Murid menyediakan beragam konten edukatif, latihan soal, dan media pembelajaran interaktif yang dapat diakses secara merata oleh siswa.', 'Akses Ruang Murid', 'https://rumah.pendidikan.go.id/ruang/murid')" class="text-xs font-bold text-blue-600 hover:text-blue-800 flex items-center space-x-1">
-                                <span>Lihat Detail</span>
-                                <i class="fa-solid fa-chevron-right text-[10px]"></i>
+
+                        <div class="pt-6 mt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
+                            <span class="text-xs text-slate-500"><i class="fa-solid fa-circle-info text-blue-500 mr-1"></i> Pelaksana: Alexandros Arief Prasetya, S.Pd. & Fransiskus Rudihardus, S.T.</span>
+                            <button onclick="openModal('Presentasi Pengimbasan Bimtek', 'Dokumen presentasi terpadu memuat: 1. Pengenalan platform Rumah Pendidikan, Ruang GTK, dan Ruang Murid, serta 2. Panduan operasional penggunaan Papan Interaktif Digital dalam KBM di SMA Negeri 1 Waigete.', 'Buka Slide Presentasi', 'https://docs.google.com/presentation/d/YOUR_SLIDE_ID/edit?usp=sharing')" class="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-md shadow-blue-500/20 transition-all flex items-center justify-center space-x-2">
+                                <i class="fa-solid fa-expand"></i>
+                                <span>Lihat Detail Presentasi</span>
                             </button>
                         </div>
                     </div>
@@ -418,21 +401,21 @@
                     <p class="text-slate-600 text-base">Akses langsung ke platform utama ekosistem digital pendidikan resmi.</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
                     
-                    <!-- Official Link 1 -->
-                    <a href="https://rumah.pendidikan.go.id/" target="_blank" rel="noopener noreferrer" class="group p-8 rounded-3xl bg-gradient-to-br from-blue-900 to-indigo-900 text-white shadow-xl hover:shadow-2xl transition-all duration-300 relative overflow-hidden flex flex-col justify-between">
-                        <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-white/10 rounded-full blur-2xl group-hover:scale-150 transition-transform"></div>
+                    <!-- Official Link 1: Rumah Pendidikan -->
+                    <a href="https://rumah.pendidikan.go.id/" target="_blank" rel="noopener noreferrer" class="group p-7 rounded-3xl bg-gradient-to-br from-blue-900 to-indigo-900 text-white shadow-xl hover:shadow-2xl transition-all duration-300 relative overflow-hidden flex flex-col justify-between">
+                        <div class="absolute -right-10 -bottom-10 w-36 h-36 bg-white/10 rounded-full blur-2xl group-hover:scale-150 transition-transform"></div>
                         <div>
-                            <div class="flex items-center justify-between mb-6">
-                                <div class="w-14 h-14 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center text-2xl border border-white/20">
+                            <div class="flex items-center justify-between mb-5">
+                                <div class="w-12 h-12 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center text-xl border border-white/20">
                                     <i class="fa-solid fa-building-columns text-blue-300"></i>
                                 </div>
-                                <span class="text-xs font-semibold px-3 py-1 bg-white/20 rounded-full border border-white/20">Portal Utama</span>
+                                <span class="text-[11px] font-semibold px-2.5 py-1 bg-white/20 rounded-full border border-white/20">Portal Utama</span>
                             </div>
-                            <h3 class="text-2xl font-bold mb-2 group-hover:text-blue-200 transition-colors">Portal Rumah Pendidikan</h3>
-                            <p class="text-blue-100/80 text-xs sm:text-sm leading-relaxed mb-6">
-                                Pusat integrasi layanan digital pendidikan yang menyediakan akses terpadu bagi pendidik, tenaga kependidikan, dan peserta didik.
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-blue-200 transition-colors">Rumah Pendidikan</h3>
+                            <p class="text-blue-100/80 text-xs leading-relaxed mb-6">
+                                Pusat integrasi layanan digital pendidikan resmi bagi pendidik, tenaga kependidikan, dan murid.
                             </p>
                         </div>
                         <div class="flex items-center text-xs font-bold text-blue-300 group-hover:text-white space-x-2">
@@ -441,7 +424,49 @@
                         </div>
                     </a>
 
-                    </div>
+                    <!-- Official Link 2: Ruang GTK -->
+                    <a href="https://rumah.pendidikan.go.id/ruang/gtk/" target="_blank" rel="noopener noreferrer" class="group p-7 rounded-3xl bg-gradient-to-br from-indigo-900 to-purple-900 text-white shadow-xl hover:shadow-2xl transition-all duration-300 relative overflow-hidden flex flex-col justify-between">
+                        <div class="absolute -right-10 -bottom-10 w-36 h-36 bg-white/10 rounded-full blur-2xl group-hover:scale-150 transition-transform"></div>
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <div class="w-12 h-12 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center text-xl border border-white/20">
+                                    <i class="fa-solid fa-chalkboard-user text-purple-300"></i>
+                                </div>
+                                <span class="text-[11px] font-semibold px-2.5 py-1 bg-white/20 rounded-full border border-white/20">Portal Pendidik</span>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-purple-200 transition-colors">Ruang GTK</h3>
+                            <p class="text-purple-100/80 text-xs leading-relaxed mb-6">
+                                Layanan pengembangan kompetensi, perangkat ajar, serta fasilitas pelatihan profesionalisme guru.
+                            </p>
+                        </div>
+                        <div class="flex items-center text-xs font-bold text-purple-300 group-hover:text-white space-x-2">
+                            <span>Kunjungi Ruang GTK</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </div>
+                    </a>
+
+                    <!-- Official Link 3: Ruang Murid -->
+                    <a href="https://rumah.pendidikan.go.id/ruang/murid/" target="_blank" rel="noopener noreferrer" class="group p-7 rounded-3xl bg-gradient-to-br from-emerald-800 to-teal-900 text-white shadow-xl hover:shadow-2xl transition-all duration-300 relative overflow-hidden flex flex-col justify-between">
+                        <div class="absolute -right-10 -bottom-10 w-36 h-36 bg-white/10 rounded-full blur-2xl group-hover:scale-150 transition-transform"></div>
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <div class="w-12 h-12 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center text-xl border border-white/20">
+                                    <i class="fa-solid fa-child-reaching text-emerald-300"></i>
+                                </div>
+                                <span class="text-[11px] font-semibold px-2.5 py-1 bg-white/20 rounded-full border border-white/20">Portal Siswa</span>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-emerald-200 transition-colors">Ruang Murid</h3>
+                            <p class="text-emerald-100/80 text-xs leading-relaxed mb-6">
+                                Platform khusus peserta didik untuk mengeksplorasi bahan belajar interaktif dan modul digital.
+                            </p>
+                        </div>
+                        <div class="flex items-center text-xs font-bold text-emerald-300 group-hover:text-white space-x-2">
+                            <span>Kunjungi Ruang Murid</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </div>
+                    </a>
+
+                </div>
 
             </div>
         </section>
@@ -483,8 +508,8 @@
                             </div>
                             <div class="flex-1 md:pl-12 mt-4 md:mt-0">
                                 <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider">Tahap 2</span>
-                                <h3 class="text-lg font-bold text-slate-900">Eksplorasi Ruang GTK</h3>
-                                <p class="text-xs text-slate-600 mt-1">Mencari dan menelaah perangkat ajar, materi pelatihan, serta alat bantu pembelajaran sesuai mata pelajaran masing-masing.</p>
+                                <h3 class="text-lg font-bold text-slate-900">Eksplorasi Ruang GTK & Papan Digital</h3>
+                                <p class="text-xs text-slate-600 mt-1">Mencari dan menelaah perangkat ajar serta mempraktikkan pengoperasian papan interaktif digital untuk KBM.</p>
                             </div>
                         </div>
 
@@ -554,12 +579,12 @@
 
                             <label class="flex items-start space-x-3 p-3.5 rounded-xl bg-slate-800/50 hover:bg-slate-800 border border-slate-700/60 cursor-pointer transition-all">
                                 <input type="checkbox" class="chk-item mt-1 w-4 h-4 text-blue-600 rounded focus:ring-blue-500 bg-slate-700 border-slate-600">
-                                <span class="text-xs sm:text-sm text-slate-200">Saya telah membuka dan mempelajari fitur-fitur di Ruang GTK.</span>
+                                <span class="text-xs sm:text-sm text-slate-200">Saya telah menguji dan mempelajari fitur-fitur di Ruang GTK.</span>
                             </label>
 
                             <label class="flex items-start space-x-3 p-3.5 rounded-xl bg-slate-800/50 hover:bg-slate-800 border border-slate-700/60 cursor-pointer transition-all">
                                 <input type="checkbox" class="chk-item mt-1 w-4 h-4 text-blue-600 rounded focus:ring-blue-500 bg-slate-700 border-slate-600">
-                                <span class="text-xs sm:text-sm text-slate-200">Saya telah mengunduh atau menelaah setidaknya 1 modul / perangkat ajar di Ruang GTK.</span>
+                                <span class="text-xs sm:text-sm text-slate-200">Saya telah mempelajari cara pengoperasian Papan Interaktif Digital untuk kegiatan KBM.</span>
                             </label>
 
                             <label class="flex items-start space-x-3 p-3.5 rounded-xl bg-slate-800/50 hover:bg-slate-800 border border-slate-700/60 cursor-pointer transition-all">
@@ -612,7 +637,8 @@
                     <h4 class="text-white text-sm font-semibold mb-3">Tautan Cepat</h4>
                     <ul class="text-xs space-y-2">
                         <li><a href="https://rumah.pendidikan.go.id/" target="_blank" class="hover:text-white transition-colors">Portal Rumah Pendidikan</a></li>
-                        <li><a href="https://rumah.pendidikan.go.id/ruang/murid" target="_blank" class="hover:text-white transition-colors">Portal Ruang Murid</a></li>
+                        <li><a href="https://rumah.pendidikan.go.id/ruang/gtk/" target="_blank" class="hover:text-white transition-colors">Portal Ruang GTK</a></li>
+                        <li><a href="https://rumah.pendidikan.go.id/ruang/murid/" target="_blank" class="hover:text-white transition-colors">Portal Ruang Murid</a></li>
                         <li><a href="#materi" class="hover:text-white transition-colors">Modul Pengimbasan</a></li>
                     </ul>
                 </div>
